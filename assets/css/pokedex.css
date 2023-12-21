@@ -148,3 +148,75 @@
 .pagination button:hover{
   background-color: #8b71d3;
 }
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.navbar li{
+  list-style: none;
+  text-align: center;
+  color: white;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.types{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.types .type-stats{
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem 0;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  filter: brightness(1.1);
+  text-align: center;
+  list-style: none;
+}
+
+.pokemon-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.nav-about{
+  padding: 0.2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #f1f1f1;
+}
+
+.content-about{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   
+  gap: 0.5rem;
+  font-size: larger;
+  padding: 1.5rem;
+}

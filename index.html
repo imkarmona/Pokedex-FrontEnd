@@ -23,8 +23,13 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/pokedex-stats.css">
     <link rel="stylesheet" href="./assets/css/pokedex.css" />
   </head>
 
@@ -33,22 +38,7 @@
       <h1>Pokedex</h1>
       
       <ol id="pokemonList" class="pokemons">
-        <li class="pokemon">
-          <span class="number">#001</span>
-          <span class="name">Bulbasaur</span>
-
-          <div class="detail">
-            <ol class="types">
-              <li class="type">grass</li>
-              <li class="type">poison</li>
-            </ol>
-
-            <img
-              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-              alt="Bulbasaur"
-            />
-          </div>
-        </li>
+        
       </ol>
       <div class="pagination"> 
         <button id="loadMoreButton" type="button">
@@ -60,6 +50,7 @@
 
     <!-- Nosso JS -->
     <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/pokemon-stats.js"></script>
     <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
